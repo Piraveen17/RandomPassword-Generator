@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+body{
+    background: #000066;
+    color: #fff;
+}
+.container{
+    margin: 12%;
+    width: 90%;
+    max-width: 700px;
+}
+.container h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.2em;
+}
+.container h1 span{
+    color: rgb(15, 217, 15);
+    text-decoration: underline;
+}
+.inputBox{
+    width: 450px;
+    margin-top: 25px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.inputBox input{
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 15px;
+}
+.inputBox img{
+    margin-right: 20px;
+    width: 35px;
+    cursor: pointer;
+}
+.length{
+    margin: 20px 0;
+    width: 400px;
+    padding:0;
+}
+.length h3{
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.length input{
+    border: none;
+    outline: none;
+    width: 300px;
+    margin: 0;
+    padding: 10px;
+}
+.gen-pass button{
+    border: none;
+    outline: none;
+    width: 180px;
+    padding: 6px;
+    background-color: rgb(4, 143, 4) ;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.gen-pass button img{
+    width: 28px;
+    margin-right: 10px;
+}
+.gen-pass button:hover{
+    opacity: 0.8;
+}
