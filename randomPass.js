@@ -9,9 +9,13 @@ const allChars = upperCase + lowerCase + number + symbol;
 
 function generate() {
   let password = "";
-  console.log(length);
   while (password.length < length.value) {
     password += allChars[Math.floor(Math.random() * allChars.length)];
   }
   passwordBox.value = password;
+}
+
+function copyPassword() {
+  passwordBox.select();
+  document.execCommand("copy");
 }
